@@ -1,0 +1,25 @@
+{
+  "name": "node-gulp-starter",
+  "version": "0.0.1",
+  "description": "Quick start node js project with gulp builder",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "gulp build",
+    "gulp": "gulp",
+    "watch": "watch"
+  },
+  "author": "Lozhkin Ivan",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/core-js": "^0.9.41",
+    "@types/node": "^6.0.45",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-typescript": "^3.1.6",
+    "node-notifier": "^5.1.2",
+    "typescript": "^2.3.4"
+  }
+}
