@@ -4,9 +4,10 @@
   "description": "Quick start node js project with gulp builder",
   "main": "src/index.js",
   "scripts": {
+    "start": "npm run build && npm run watch",
     "build": "gulp build",
     "gulp": "gulp",
-    "watch": "watch"
+    "watch": "gulp watch"
   },
   "author": "Lozhkin Ivan",
   "license": "ISC",
